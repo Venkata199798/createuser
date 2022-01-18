@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: grey;
+}
+nav{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    padding: 5px;
+    
+    
+    
+}
+ul{
+    display: flex; 
+    font-size: 30px;
+    justify-content: flex-end;
+    
+    
+}
+li a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;   
+    padding: 10px;
+}
+.banner-section img{
+    max-width: 100%;
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.banner-section{
+    position: relative;
+    z-index: -1;
+}
+.user-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+h2{
+    color: white;
+    font-size: 24px;
+    
+}
+.test-section{
+    height: 400px;
+    width: 28%;
+    padding: 10px;
+    margin: 10px;
+}
+p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+button,.btnn{
+    height: 45px;
+    width: 100px;
+    background-color: green;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.test{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+div{
+    text-align: center;
+}
+h1{
+    padding: 10px;
+    text-align: center;
+}
